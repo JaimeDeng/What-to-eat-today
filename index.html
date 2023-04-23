@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="emojiThinking" id="emojiThinking"></div>
+
+    <div class="frame">
+        <h3 class="title">今天吃什麼</h3>
+        <h2 class="sort">類型</h2>
+        <div class="checkBoxFrame">
+            <div>
+                <lable for="noodle">麵</lable>
+                <input type="checkbox" id="noodle" class="noodle" value="noodle">
+            </div>
+            <div>
+                <lable for="rice">飯</lable>
+                <input type="checkbox" id="rice" class="rice" value="rice">
+            </div>
+            <div>
+                <lable for="boxedLunch">便當</lable>
+                <input type="checkbox" id="boxedLunch" class="boxedLunch" value="boxedLunch">
+            </div>
+            <div>
+                <lable for="good">爽的</lable>
+                <input type="checkbox" id="good" class="good" value="good">
+            </div>
+            <div>
+                <lable for="others">其他</lable>
+                <input type="checkbox" id="others" class="others" value="others">
+            </div>
+        </div>
+        <button class="btn" id="btn">Roll</button>
+        <div class="resultFrame">
+            <h1>今天吃</h1><h1 class="result" id="result">什麼呢</h1>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

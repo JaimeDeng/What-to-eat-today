@@ -1,0 +1,75 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(99, 83, 83);
+  height: 100vh;
+  width: 100vw;
+  color: rgb(41, 32, 32);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .emojiThinking {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url(emoji思考.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+  visibility: hidden;
+}
+body .frame {
+  width: 50%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to bottom, rgb(109, 91, 91), rgb(131, 111, 111));
+  border-radius: 20px;
+  border: 2px solid silver;
+  box-shadow: 0px 0px 30px rgb(54, 45, 45);
+}
+body .frame .title {
+  margin-bottom: 2vh;
+}
+body .frame .sort {
+  margin-bottom: 2vh;
+}
+body .frame .checkBoxFrame {
+  width: 60%;
+  font-size: 24px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2vh;
+}
+body .frame .checkBoxFrame input {
+  height: 26px;
+  width: 26px;
+  vertical-align: middle;
+}
+body .frame .btn {
+  height: 4vh;
+  width: 15vw;
+  font-size: 30px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: none;
+  transition: 0.5s;
+}
+body .frame .btn:hover {
+  background-color: rgb(255, 246, 165);
+}
+body .frame .btn:active {
+  background-color: rgb(163, 116, 55);
+}
+body .frame .resultFrame {
+  width: -moz-max-content;
+  width: max-content;
+  display: flex;
+}/*# sourceMappingURL=style.css.map */

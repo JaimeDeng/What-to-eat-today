@@ -1,0 +1,86 @@
+[
+    {
+        "name": "哈密瓜便當",
+        "category": ["boxedLunch","rice"]
+    },
+    {
+        "name": "永吉便當",
+        "category": ["boxedLunch","rice"]
+    },
+    {
+        "name": "大一便當",
+        "category": ["boxedLunch","rice"]
+    },
+    {
+        "name": "家成便當",
+        "category": ["boxedLunch","rice"]
+    },
+    {
+        "name": "小圓園便當",
+        "category": ["boxedLunch","rice"]
+    },
+    {
+        "name": "吾彥煮鍋燒麵",
+        "category": ["noodle"]
+    },
+    {
+        "name": "萬客樓",
+        "category": ["good"]
+    },
+    {
+        "name": "好味道湯包",
+        "category": ["good"]
+    },
+    {
+        "name": "四海遊龍",
+        "category": ["others"]
+    },
+    {
+        "name": "麥當當",
+        "category": ["good"]
+    },
+    {
+        "name": "NoQ Pizza",
+        "category": ["good"]
+    },
+    {
+        "name": "炒飯",
+        "category": ["rice"]
+    },
+    {
+        "name": "小赤佬",
+        "category": ["others"]
+    },
+    {
+        "name": "鮮魚湯",
+        "category": ["others"]
+    },
+    {
+        "name": "肯德基",
+        "category": ["good"]
+    },
+    {
+        "name": "刀削麵",
+        "category": ["noodle"]
+    },
+    {
+        "name": "烏龍麵",
+        "category": ["noodle"]
+    },
+    {
+        "name": "白色貓頭鷹",
+        "category": ["noodle","rice"]
+    },
+    {
+        "name": "轉餃",
+        "category": ["others"]
+    },
+    {
+        "name": "小火鍋",
+        "category": ["good"]
+    },
+    {
+        "name": "釜山崔炸雞",
+        "category": ["good"]
+    }
+]
