@@ -75,7 +75,6 @@ fetch('mealList.json')
   .then(data => mealData = data)
   .catch(error => console.log(error));
 
-
 //產生過濾後的清單
 let filteredList = [];
 function generateFilteredList (){
